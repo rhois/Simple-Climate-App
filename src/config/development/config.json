@@ -1,0 +1,8 @@
+{
+  "env": "development",
+  "url": " http://api.openweathermap.org",
+  "color": {
+    "primary": "#00b3c7",
+    "secondary": "#a2cc5e"
+  }
+}

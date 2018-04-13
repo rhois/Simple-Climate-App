@@ -1,0 +1,28 @@
+.mobile-nav {
+  display: block;
+  position: absolute;
+  border-top: 1px solid rgba(151, 151, 151, 0.3);
+  border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+  width: 100%;
+  left: 0;
+  top: 50px;
+  background: #fff;
+  z-index: 11;
+  transition: all 0.3s ease;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    border-bottom: 1px solid rgba(151, 151, 151, 0.3);
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  a {
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+}

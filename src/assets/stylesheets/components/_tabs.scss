@@ -1,0 +1,49 @@
+.tab-content {
+  display: none;
+  &.on, &:first-child {
+    display: block;
+  }
+  p {
+    margin: 0;
+  }
+}
+
+.tabs {
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 50%;
+    margin-right: -4px;
+    max-width: 152px;
+    color: #9B9B9B;
+    text-decoration: none;
+    font-size: 0.857rem;
+    padding: 3px 0;
+    border: 1px solid #ececec;
+    cursor: pointer;
+    &:hover {
+      color: #4a4a4a;
+    }
+    &:first-child {
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+    &:last-child {
+      border-top-right-radius: 3px;
+      border-bottom-right-radius: 3px;
+      border-left: none;
+    }
+    &.on, &.ReactTabs__Tab--selected {
+      background-color: #f3f4f4;
+      font-weight: bold;
+      color: #4a4a4a;
+    }
+    &.on a {
+      color: #4a4a4a;
+    }
+  }
+}
+
+.ReactTabs__Tab--selected {
+  color: #4a4a4a;
+}
